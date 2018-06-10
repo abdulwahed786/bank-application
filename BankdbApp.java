@@ -227,7 +227,7 @@ class AdminLogin extends Panel implements ActionListener
 	{
 		if(ae.getActionCommand().equals("Authenticate"))
 		{
-			if(tf.getText().equals("touseef"))
+			if(tf.getText().equals("touseef"))   //PASSWORD ADMIN---------------------------------------
 			{
 				AdminPage p=new AdminPage("Welcome Admin :)");
 				p.setSize(800,500);
